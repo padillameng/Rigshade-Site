@@ -1,0 +1,48 @@
+/* RigShade site — the rules used outside the landing page.
+   The landing page keeps its own approved stylesheet (css/styles.css);
+   everything here builds on the tokens defined in that file. */
+
+/* the footer gains the two public documents */
+.footer-links{display:flex;gap:22px;padding-top:16px;font-size:13px}
+.footer-links a{color:var(--mint);opacity:.95}
+.footer-links a:hover{opacity:1;text-decoration:underline}
+
+/* on the document pages the header mark is a file, not inline markup */
+.brand img{width:94px;height:39px;display:block}
+
+/* document pages: a plain reading column inside the same chrome */
+.doc{padding:64px 0 88px}
+.doc-wrap{width:min(calc(100% - 40px),860px);margin:auto}
+.doc h1{font-size:clamp(34px,4.4vw,50px);line-height:1.06;letter-spacing:-.03em;margin:0 0 18px;font-weight:850}
+.doc h2{font-size:22px;margin:44px 0 12px;font-weight:800;letter-spacing:-.01em}
+.doc h3{font-size:17px;margin:26px 0 8px;font-weight:750}
+.doc p{margin:0 0 15px;color:var(--muted);font-size:16px;line-height:1.66}
+.doc li{color:var(--muted);font-size:16px;line-height:1.66;margin:0 0 8px}
+.doc ul,.doc ol{margin:0 0 18px;padding-left:22px}
+.doc strong{color:#fff}
+.doc a{color:var(--mint);text-decoration:underline;text-underline-offset:2px}
+.doc a:hover{color:#fff}
+.doc-meta{border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12);padding:15px 0;margin:0 0 30px;display:grid;gap:6px;color:var(--muted2);font-size:14px}
+.doc-meta b{color:#fff}
+.doc table{width:100%;border-collapse:collapse;margin:0 0 20px;font-size:15px}
+.doc th,.doc td{border:1px solid rgba(255,255,255,.14);padding:11px 13px;text-align:left;vertical-align:top;color:var(--muted)}
+.doc th{background:var(--panel);color:#fff;font-weight:750}
+.doc td:first-child{color:#fff;font-weight:650}
+.doc-note{margin:22px 0 0;padding:15px 17px;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:var(--panel);color:var(--muted);font-size:15px}
+.doc-note b{color:#fff}
+.doc-cta{display:inline-flex;align-items:center;margin:6px 0 0;padding:12px 18px;border-radius:10px;background:var(--mint);color:#062747;font-weight:800;text-decoration:none}
+.doc-cta:hover{color:#062747;text-decoration:none}
+.doc-foot{margin-top:52px;padding-top:22px;border-top:1px solid rgba(255,255,255,.12);color:var(--muted2);font-size:14px}
+
+@media (max-width:760px){
+  .doc{padding:40px 0 64px}
+  .doc table{font-size:14px}
+}
+
+@media print{
+  html,body,.site{background:#fff;color:#111}
+  .doc h1,.doc h2,.doc h3,.doc strong,.doc td:first-child,.doc th{color:#111}
+  .doc p,.doc li,.doc td,.doc-meta,.doc-note{color:#222}
+  .doc a{color:#111}
+  .header,.footer,.footer-links{display:none}
+}

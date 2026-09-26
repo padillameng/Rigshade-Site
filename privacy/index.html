@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#082B55" name="theme-color"/>
+<title>RigShade — Privacy Policy</title>
+<meta content="How RigShade for Android handles your data: it collects nothing, stores nothing off your device and has no network access." name="description"/>
+<link rel="icon" type="image/svg+xml" href="../assets/brand/rigshade-favicon.svg"/>
+<link rel="icon" type="image/png" sizes="512x512" href="../assets/brand/rigshade-favicon.png"/>
+<link rel="apple-touch-icon" href="../assets/brand/rigshade-favicon.png"/>
+<link rel="stylesheet" href="../css/styles.css"/>
+<link rel="stylesheet" href="../css/pages.css"/>
+</head>
+<body>
+<div class="site">
+<header class="header"><div class="wrap nav">
+<a aria-label="RigShade home" class="brand" href="../"><img alt="" height="39" src="../assets/brand/rigshade-logo.svg" width="94"/><span>RigShade</span></a>
+<nav aria-label="Primary navigation" class="navlinks"><a href="../">Home</a><a href="../support/">Support</a><a href="../privacy/">Privacy</a></nav>
+<a class="navcta" href="../support/#get-the-app">Get the App</a>
+<button aria-expanded="false" aria-label="Open menu" class="hamb"><span></span><span></span><span></span></button>
+</div><div class="mobilemenu" id="mobileMenu"><a href="../">Home</a><a href="../support/">Support</a><a href="../privacy/">Privacy</a><a href="../support/#get-the-app">Get the App</a></div></header>
+
+<main class="doc">
+<div class="wrap doc-wrap">
+<h1>Privacy Policy</h1>
+<p class="doc-meta">
+<span><b>Effective date:</b> 25 September 2026</span>
+<span><b>Application:</b> RigShade for Android</span>
+<span><b>Developer:</b> Miguel Padilla, an individual developer</span>
+<span><b>Contact:</b> <a href="mailto:padillameng@users.noreply.github.com">padillameng@users.noreply.github.com</a></span>
+</p>
+
+<h2>Summary</h2>
+<p>RigShade does not collect, store or share any personal data, and it cannot: the app is built
+without network access, so there is nowhere for data to go. There is no account, no sign-in, no
+advertising, no analytics and no crash reporting.</p>
+
+<h2>What RigShade is</h2>
+<p>RigShade configures a guitar effects pedal over a USB cable. The pedal has no screen of its own,
+so the app is how you see and edit the settings that are sounding. Everything the app does happens
+between your phone and the pedal you plugged into it.</p>
+
+<h2>What the app accesses, and why</h2>
+<table>
+<thead>
+<tr><th>Access</th><th>Why it is asked for</th><th>What happens to it</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>USB host, and permission to use the attached USB device</td>
+<td>This is how the app talks to the pedal. The app declares that a USB host port is required, because without the pedal there is nothing to edit.</td>
+<td>The app exchanges configuration messages with the pedal over the cable. Nothing is sent anywhere else.</td>
+</tr>
+<tr>
+<td>Microphone permission (<code>RECORD_AUDIO</code>)</td>
+<td>Android requires this permission for any audio capture, and the app's tuner listens to your guitar.</td>
+<td>The audio the tuner analyses comes from the pedal's own USB audio input, never from your phone's built-in microphone. The samples are analysed in memory to measure the pitch of the string, and are then discarded: they are never written to a file, never stored and never transmitted. If the audio would be routed anywhere other than the pedal's input, the app stops and says so instead of listening.</td>
+</tr>
+<tr>
+<td>Files you choose yourself</td>
+<td>"Import IR" opens a <code>.wav</code> cabinet file that you pick; "Export all" and "Backup" write a file to the place you pick.</td>
+<td>The file you select is read on the device and sent to the pedal over the cable. The file you save is written to the location you chose. Both stay under your control.</td>
+</tr>
+</tbody>
+</table>
+<p>That is the whole list. The app does not ask for access to your contacts, calendar, location,
+camera, photos, phone state, or your storage beyond the specific documents you pick through
+Android's own file picker. It does not request the <code>INTERNET</code> permission, so it has no
+way to reach the network at all.</p>
+
+<h2>What is stored on your phone</h2>
+<ul>
+<li>The configurations you save in the app ("banks"), the app's own settings, and a copy of the
+cabinet file you imported. These live in the app's private storage area, which other apps cannot
+read.</li>
+<li>Nothing else.</li>
+</ul>
+<p>They stay on your phone until you delete them in the app or uninstall it. Uninstalling RigShade
+removes them. Android's automatic backup of app data is switched off for this app, so the system
+does not copy that data to a cloud backup either.</p>
+
+<h2>What leaves your phone</h2>
+<p>Nothing. The app has no network permission, so it cannot send data anywhere, and no third-party
+service takes part in how it works.</p>
+
+<h2>Advertising, analytics and third parties</h2>
+<p>RigShade contains no advertising, no analytics, no tracking and no crash-reporting service, and
+no outside service takes part in how the app works or in what it can see.</p>
+<p>RigShade is an independent application. It is not affiliated with, endorsed by or sponsored by
+any pedal manufacturer; product names that appear in the app or in its store listing belong to
+their respective owners.</p>
+
+<h2>Children</h2>
+<p>RigShade is a tool for musicians and is not directed at children. It collects no data from
+anyone, including children.</p>
+
+<h2>Your control</h2>
+<ul>
+<li>You can withdraw the microphone permission at any time in Android's <b>Settings → Apps →
+RigShade</b>. The rest of the app keeps working; only the tuner stops listening.</li>
+<li>You can delete your saved configurations and your imported cabinet inside the app, or uninstall
+RigShade to remove everything it stored.</li>
+<li>There is no account to close, because there is no account.</li>
+</ul>
+
+<h2>Changes to this policy</h2>
+<p>If a future version of RigShade changes what it accesses or stores, this policy will be updated
+before that version is released, and the effective date above will change.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy, or about what the app does with your device: write to
+<a href="mailto:padillameng@users.noreply.github.com">padillameng@users.noreply.github.com</a>.</p>
+
+<p class="doc-foot">This policy applies to the RigShade application for Android, distributed through
+Google Play. See also <a href="../support/">Support</a>.</p>
+</div>
+</main>
+
+<footer class="footer"><div class="wrap footer-inner"><span>RigShade</span><span>Android USB OTG editor for the M‑VAVE Cube Baby electric guitar pedal.</span></div><div class="wrap footer-links"><a href="../support/">Support</a><a href="../privacy/">Privacy</a></div></footer>
+</div>
+<script src="../js/main.js"></script>
+</body>
+</html>

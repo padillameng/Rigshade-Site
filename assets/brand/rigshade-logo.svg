@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="76" aria-label="RigShade logo 1.4" role="img" viewBox="0 0 184 76">
+<rect fill="none" height="66" rx="18" stroke="#ffffff" stroke-width="4" width="180" x="2" y="5"></rect>
+<rect fill="none" height="46" rx="10" stroke="#27E5B1" stroke-width="6" width="48" x="12" y="15"></rect>
+<path d="M20 41 C26 25,31 25,36 38 C41 49,47 49,53 33" fill="none" stroke="#27E5B1" stroke-linecap="round" stroke-width="5"></path>
+<rect fill="none" height="46" rx="10" stroke="#33B8FF" stroke-width="6" width="48" x="68" y="15"></rect>
+<rect fill="#33B8FF" height="15" rx="2.5" width="5" x="77" y="37"></rect><rect fill="#33B8FF" height="23" rx="2.5" width="5" x="86" y="29"></rect><rect fill="#33B8FF" height="19" rx="2.5" width="5" x="95" y="33"></rect><rect fill="#33B8FF" height="28" rx="2.5" width="5" x="104" y="24"></rect>
+<rect fill="none" height="46" rx="10" stroke="#7A5CFF" stroke-width="6" width="48" x="124" y="15"></rect>
+<path d="M133 49 H142 V31 H155 V49 H164" fill="none" stroke="#7A5CFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"></path>
+</svg>
